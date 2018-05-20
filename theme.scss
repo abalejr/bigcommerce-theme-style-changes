@@ -8693,8 +8693,9 @@ button {
 /* scss-combine:general/scaffolding */
 // Layout Blocks
 .layout-block {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  /* A.J. Bale | 5.20.18 | remove padding on desktop */
+  padding-top: 0;
+  padding-bottom: 0;
   -webkit-font-smoothing: antialiased;
   border-bottom: 1px solid $border-color;
 
