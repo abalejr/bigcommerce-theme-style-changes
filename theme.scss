@@ -8699,7 +8699,8 @@ button {
   border-bottom: 1px solid $border-color;
 
   @include breakpoint(l-only) {
-    padding-top: 50px;
+    /* A.J. Bale | 5.20.18 | reduce padding-top when not on desktop */
+    padding-top: 0;
     padding-bottom: 50px;
   }
 
@@ -8709,8 +8710,6 @@ button {
 
     +.layout-block {
       padding-top: 0;
-      /* A.J. Bale | 5.20.18 | reduce padding-bottom when not on desktop */
-      padding-bottom: 50px;
     }
   }
 
