@@ -8709,6 +8709,8 @@ button {
 
     +.layout-block {
       padding-top: 0;
+      /* A.J. Bale | 5.20.18 | reduce padding-bottom when not on desktop */
+      padding-bottom: 50px;
     }
   }
 
