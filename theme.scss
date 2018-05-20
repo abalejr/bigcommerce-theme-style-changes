@@ -11381,7 +11381,9 @@ $auth-font-size: $account-font-size !default;
 
 .mobile-header-branding {
   display: none;
-  padding: ($gutter * 2) 0;
+  /* A.J. Bale | 5.20.18 | adjust padding for mobile-header-branding */
+  padding: 15px 0;
+  /* padding: ($gutter * 2) 0; */
   text-align: center;
 
   @include breakpoint(l-only) { display: block; }
